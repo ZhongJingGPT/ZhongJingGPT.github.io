@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html>
 
@@ -6,7 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script type="text/javascript" src="https://ss.4r7.com/card/js/header.js"></script>
-    <title>屈耘野 - Qu Yunye - 主页</title>
+    <title>ZhongJingGPT</title>
     <meta name="keywords" content="屈耘野,耘野,quyunye,Yunye Qu,shi.la,wo.shi.la,是啦,我是啦,简单介绍,教育,经历,知识,技能,项目,经验,生活,链接,联系" />
     <meta name="description"
         content="屈耘野 - 个人主页 - Qu Yunye's home page. 简单介绍, 教育, 经历, 知识, 技能, 项目, 经验, 生活, 链接, 联系. About, Education, Tech, Skill, Projects, My Life, Links" />
@@ -100,7 +99,7 @@
                         class="iconfont icon-xingqiu"></i></a>&nbsp;
                 <a href="#contact" target="_self"><i style="color:#7f881a;" class="iconfont icon-haoyou"></i></a>&nbsp;
                 <a href="#"
-                    onclick="document.getElementById('overlay').style.display = 'flex';document.getElementById('dialog-img').src = 'https://ss.4r7.com/card/images/wechat.jpg';return false;"
+                    onclick="document.getElementById('overlay').style.display = 'flex';document.getElementById('dialog-img').src = '/card/images/wechat.jpg';return false;"
                     target="_self"><i style="color:#467f0c;" class="iconfont icon-weixin"></i></a>&nbsp;
             </p>
             <br>
@@ -114,7 +113,7 @@
         <div class="dialog_box">
             <span class="close_button">&times; 关闭</span>
             <img id="dialog-img" style="margin: 0 auto;max-width: 300px;"
-                src="https://ss.4r7.com/card/images/wechat.jpg" alt="联系方式">
+                src="/card/images/wechat.jpg" alt="联系方式">
         </div>
     </div>
 
@@ -129,7 +128,26 @@
                 <!-- <p><i class="iconfont icon-geren"></i> </p> -->
                 <!-- <a class="p_card_text" style="font-size:17px;"><i class="iconfont icon-yanfa"></i></a> -->
                 <a class="p_card_text" style="font-size:18px;"><i class="iconfont icon-shouye"></i>
-  
+                    <i class="iconfont icon-dingbu"></i>
+                    <i class="iconfont icon-telegram"></i>
+                    <i class="iconfont icon-yewan"></i>
+                    <i class="iconfont icon-fangda"></i>
+                    <i class="iconfont icon-dingwei"></i>
+                    <i class="iconfont icon-tuandui"></i>
+                    <i class="iconfont icon-fenxiang"></i>
+                    <i class="iconfont icon-ziyuan"></i>
+                    <i class="iconfont icon-lianjie"></i>
+                    <i class="iconfont icon-riqi"></i>
+                    <i class="iconfont icon-shuju"></i>
+                    <i class="iconfont icon-biji"></i>
+                    <i class="iconfont icon-yuyan"></i>
+                    <i class="iconfont icon-mubiao"></i>
+                    <i class="iconfont icon-yanfa"></i>
+                    <i class="iconfont icon-jiegou"></i>
+                    <i class="iconfont icon-tianxie"></i>
+                    <i class="iconfont icon-telegram"></i>
+                    <i class="iconfont icon-shouye"></i>
+                    <i class="iconfont icon-yanfa"></i>
                     中医学蕴含着悠久的医疗知识和临床经验，是人类医学宝库的重要组成部分。但由于中医理论体系复杂，中医知识存在杂乱无章的现象，传统中医临床也依赖医师个人经验，存在一定的主观性和局限性。近年来，随着医疗服务模式的变革，中医药面临提质增效、推动标准化和规范化的迫切需求。同时，中医现代化建设亟须运用信息技术手段，对中医知识进行整合、提炼和重构。</br>
 
                     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;在这种背景下，生成式语言模型技术为中医药知识整合和应用提供了新的思路。中医大语言模型可以模拟中医医师语言逻辑思维，实现智能诊断、处方决策等功能。这为推动中医标准化服务、提升中医药服务水平提供了可能。</br>
@@ -339,10 +357,32 @@
         </div>
     </div>
 
+    
+
+    <div id="Disclaimer" class="change card">
+        <a href="#"><img class="change favorite" src="/card/images/favorite.jpg"></a>
+        <div class="class_title">
+            <b style="font-size:150%;" onclick="window.location.href='#'">致谢与免责声明<br></b>Acknowledgement and Disclaimer<br><br>
+        </div>
+
+        <div style="clear:both;padding-left:3%;padding-right:3%;padding-bottom:3%;">
+            <b style="font-size:15px;font-weight: 350;">
+                <!-- <p><i class="iconfont icon-geren"></i> </p> -->
+                <!-- <a class="p_card_text" style="font-size:17px;"><i class="iconfont icon-yanfa"></i></a> -->
+                <a class="p_card_text" style="font-size:17px;"><i class="iconfont icon-taiyang"></i>
+                    本项目采用人在回路(humans in the loop)的方式构建数据集,我们汲取中医学、计算机科学、认知科学、编辑出版等多学科的思路,通过医师与语言模型的多轮交互修订,合成高质量的中医学专业语料。我们基于Baichuan-2-13B预训练语言模型,使用Lora方式进行模型微调,实现了在低资源环境下,通过少量优质数据构建出功能强大的中医学专业大语言模型。</br>
+                    <i class="iconfont icon-mubiao"></i>本研究仅供学术研究使用，未经允许不得商业使用，不得在医疗场景或具有潜在医疗意图场景进行临床实践。本中医药大语言模型还处于实验室测试阶段，本阶段涌现的证型分类和处方生成能力尚且粗浅，对于其他临床专科尚不具备高度可信的临床诊疗能力，目前尚不具有医疗实践能力，输出结果仅供内部参考测试。真实的医疗诊断及决策依然需要经经验丰富的医师通过严格规范的诊疗过程出具。
+                </a>
+                <!-- <p><i class="iconfont icon-xuexiao"></i> </p> -->
+                <p></p>
+            </b>
+        </div>
+    </div>
+
     <div id="more" class="change card">
         <a href="#"><img class="change favorite" src="/card/images/favorite.jpg"></a>
         <div class="class_title">
-            <b style="font-size:150%;" onclick="window.location.href='#'">更多信息<br></b>More<br><br>
+            <b style="font-size:150%;" onclick="window.location.href='#'">团队介绍<br></b>Team<br><br>
         </div>
 
         <div style="clear:both;padding-left:3%;padding-right:3%;padding-bottom:3%;">
@@ -363,26 +403,6 @@
         </div>
     </div>
 
-    <div id="Disclaimer" class="change card">
-        <a href="#"><img class="change favorite" src="/card/images/favorite.jpg"></a>
-        <div class="class_title">
-            <b style="font-size:150%;" onclick="window.location.href='#'">致谢与免责声明<br></b>Acknowledgement and Disclaimer<br><br>
-        </div>
-
-        <div style="clear:both;padding-left:3%;padding-right:3%;padding-bottom:3%;">
-            <b style="font-size:15px;font-weight: 350;">
-                <!-- <p><i class="iconfont icon-geren"></i> </p> -->
-                <!-- <a class="p_card_text" style="font-size:17px;"><i class="iconfont icon-yanfa"></i></a> -->
-                <a class="p_card_text" style="font-size:18px;"><i class="iconfont icon-taiyang"></i>
-                    本项目采用人在回路(humans in the loop)的方式构建数据集,我们汲取中医学、计算机科学、认知科学、编辑出版等多学科的思路,通过医师与语言模型的多轮交互修订,合成高质量的中医学专业语料。我们基于Baichuan-2-13B预训练语言模型,使用Lora方式进行模型微调,实现了在低资源环境下,通过少量优质数据构建出功能强大的中医学专业大语言模型。</br>
-                    <i class="iconfont icon-mubiao"></i>本研究仅供学术研究使用，未经允许不得商业使用，不得在医疗场景或具有潜在医疗意图场景进行临床实践。本中医药大语言模型还处于实验室测试阶段，本阶段涌现的证型分类和处方生成能力尚且粗浅，对于其他临床专科尚不具备高度可信的临床诊疗能力，目前尚不具有医疗实践能力，输出结果仅供内部参考测试。真实的医疗诊断及决策依然需要经经验丰富的医师通过严格规范的诊疗过程出具。
-                </a>
-                <!-- <p><i class="iconfont icon-xuexiao"></i> </p> -->
-                <p></p>
-            </b>
-        </div>
-    </div>
-
     <div id="contact" class="change card">
         <a href="#"><img class="change favorite" src="/card/images/favorite.jpg"></a>
         <div class="class_title">
@@ -392,32 +412,20 @@
 
         
         <div style="clear:both;padding-left:3%;padding-right:3%;padding-bottom:3%;">
-            <a class="p_card_text" style="font-size:18px;"><i class="iconfont icon-taiyang"></i>
+            <a class="p_card_text" style="font-size:17px;"><i class="iconfont icon-taiyang"></i>
                 数据处理与标注是训练模型重要环节之一，我们诚挚欢迎具有浓厚中医思维及创新精神的中医师加入，也会在数据层面声明相应贡献，期待我们有朝一日实现可信赖的中医通用人工智能，让古老的中医学与新时代科技融合焕发新春，这也是本项目的最终使命。如有意向，请通过如下方式联系我们。
             </a>
             <b style="font-size:15px;font-weight: 400;">
-                <p><a href="Mailto:i@QuYunYe.com" class="unified_link"><i class="iconfont icon-youjian"></i> 邮件:
-                        i@QuYunYe.com</a> 和<a href="Mailto:Wo@Shi.La" class="unified_link"> Wo@Shi.La</a></p>
+                <p><a href="Mailto:21110860035@m.fudan.edu.cn" class="unified_link"><i class="iconfont icon-youjian"></i> 邮件:
+                    21110860035@m.fudan.edu.cn</a> </p>
                 <p>
                     <a href="#" class="unified_link"
-                        onclick="document.getElementById('overlay').style.display = 'flex';document.getElementById('dialog-img').src = 'https://ss.4r7.com/card/images/wechat.jpg';return false;"
+                        onclick="document.getElementById('overlay').style.display = 'flex';document.getElementById('dialog-img').src = '/card/images/wechat.jpg';return false;"
                         target="_self"><i class="iconfont icon-weixin"></i> 微信: 点击显示</a>&nbsp;&nbsp;
-                    <a href="#" class="unified_link"
-                        onclick="document.getElementById('overlay').style.display = 'flex';document.getElementById('dialog-img').src = 'https://ss.4r7.com/card/images/qq.jpg';return false;"
-                        target="_self"><i class="iconfont icon-qq"></i> QQ: 点击显示</a>
                 </p>
-                <p>
-                    <a href="https://twitter.com/VerrillTT" target="_blank" class="unified_link"><i
-                            class="iconfont icon-tuite"></i> Twitter: VerrillTT</a>
-                    &nbsp;&nbsp;
-                    <a href="https://t.me/Verrill" target="_blank" class="unified_link"><i
-                            class="iconfont icon-telegram"></i> Telegram: Verrill</a>
+                <p><a href="https://github.com/pariskang/CMLM-ZhongJing" target="_blank" class="unified_link"><i
+                            class="iconfont icon-github"></i> GitHub: CMLM-ZhongJing</a>
                 </p>
-                <p><a href="https://github.com/quyunye" target="_blank" class="unified_link"><i
-                            class="iconfont icon-github"></i> GitHub: QuYunye</a>
-                    &nbsp;&nbsp;<i class="iconfont icon-biji"></i> 旧版主页: <a href="https://quyunye.com/2016"
-                        target="_blank" class="unified_link">2016</a>&nbsp;<a href="https://quyunye.com/2019.html"
-                        target="_blank" class="unified_link">2019</a></p>
             </b>
         </div>
     </div>
