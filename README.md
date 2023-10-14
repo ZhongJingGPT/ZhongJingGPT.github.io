@@ -1,17 +1,8 @@
-# HomePage of QuYunye
-
-我的个人主页，纯前端实现，页面分为简介、生活、技术、学术等多个部分，还带有旅行地图
-
-清晰简洁，代码友好，动态效果
-
-### 访问: [QuYunye.com](https://quyunye.com/)
+# HomePage of ZhongJingGPT
 
 
 
-#### 大体框架基于[TuHome](https://github.com/ye-tutu/TuHome)魔改，部分优化内容如下
+### 访问: [ZhongJingGPT.com](https://zhongjinggpt.github.io)
 
-1. 增加深色模式、全屏模式、平滑滚动功能
-2. 新增了页面内部消息窗口组件，新增了若干页面，新增旅行地图等组件和css效果
-3. 增加首页动态文字效果的控制，速度、时间、次数和语句随机性都可以定义了
-4. 对大多数意义晦涩的js代码都进行了注释，变量名使用通俗易懂的定义，优化了一些js代码的逻辑
+
 
